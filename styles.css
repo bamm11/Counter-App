@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    min-height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  
+ .suminfo {
+    text-align: center;
+ }
+
+ .counter {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    background: rgb(245, 168, 229)
+  }
+  
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 32px;
+  }
+
+ 
+  .text-center{
+    text-align: center;
+    display: block;
+    margin: auto;
+
+
+    
+  }
+
+
+    .btn{
+        background: rgb(239, 132, 205);
+        border-radius: 30px;
+        color: rgb(4, 4, 4);
+        padding: 10px 30px;
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+      
+   
+  
